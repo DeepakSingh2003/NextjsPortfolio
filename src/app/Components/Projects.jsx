@@ -6,41 +6,41 @@ const projects = [
     name: "Personal Portfolio Website",
     description:
       "A portfolio built using Next.js and Tailwind CSS to showcase skills and projects.",
-    github: "https://github.com/yourusername/portfolio",
-    demo: "https://yourportfolio.com",
+    github: "https://github.com/DeepakSingh2003/NextjsPortfolio.git",
+    demo: "https://deepakportfolio05.netlify.app/",
   },
   {
     name: "Codeware IT website",
     description: "A business website built with Next.js and Tailwind CSS.",
-    github: "https://github.com/yourusername/sai-associates",
-    demo: "https://saiassociates.com",
+    github: "https://github.com/DeepakSingh2003/codewareIT.git",
+    demo: "https://codewareitpvtltd.netlify.app/",
   },
   {
     name: "Music Web Application",
     description:
       "A music streaming app developed using React and Tailwind CSS.",
-    github: "https://github.com/yourusername/music-app",
-    demo: "https://yourmusicapp.com",
+    github: "https://github.com/DeepakSingh2003/MusicPlayer.git",
+    demo: "https://dcmusic.netlify.app/",
   },
   {
     name: "E-commerce Platform",
     description:
       "A full-stack MERN e-commerce platform with payment integration.",
-    github: "https://github.com/yourusername/ecommerce",
-    demo: "https://yourecommerce.com",
+    github: "https://github.com/DeepakSingh2003/Ecommerce.git",
+    demo: "https://ecommerce05.netlify.app/",
   },
   {
     name: "Chat Web Application",
     description:
       "A real-time chat application similar to WhatsApp, built with MERN stack.",
-    github: "https://github.com/yourusername/chat-app",
-    demo: "https://yourchatapp.com",
+    github: "https://github.com/DeepakSingh2003/ChatApplication.git",
+    demo: "https://chatapplicationreact01.netlify.app/",
   },
 ];
 
 const Projects = () => {
   return (
-    <div className="p-10 rounded-lg shadow-lg mt-[2rem]" id="projects">
+    <div className="p-10 rounded-lg shadow-lg " id="projects">
       <div className="flex items-center space-x-4">
         <div className="bg-white p-4 rounded-full shadow-md">
           <FaLaptopCode className="text-cyan-500 text-4xl" />

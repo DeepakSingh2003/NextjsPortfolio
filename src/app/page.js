@@ -5,6 +5,7 @@ import Proficiency from "./Components/Proficiency";
 import Education from "./Components/Education";
 import Projects from "./Components/Projects";
 import Footer from "./Components/Footer";
+import Experience from "./Components/Expericence";
 
 function page() {
   return (
@@ -13,6 +14,7 @@ function page() {
       <WhatIDo />
       <Proficiency />
       <Education />
+      <Experience />
       <Projects />
       <Footer />
     </>
