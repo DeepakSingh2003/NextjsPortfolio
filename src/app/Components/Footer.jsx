@@ -32,20 +32,20 @@ const Contact = () => {
 
         <div className="flex space-x-4 mt-6">
           <a
-            href="mailto:your-email@example.com"
+            href="mailto:deepaksinghchauhan914@gmail.com"
             className="bg-white p-3 rounded-full shadow-md hover:bg-gray-100"
           >
             <FaEnvelope className="text-blue-500 text-xl" />
           </a>
           <a
-            href="https://linkedin.com/in/your-profile"
+            href="https://www.linkedin.com/in/deepak-singh-b2b080267"
             target="_blank"
             className="bg-blue-500 p-3 rounded-full shadow-md hover:bg-blue-600"
           >
             <FaLinkedin className="text-white text-xl" />
           </a>
           <a
-            href="https://github.com/your-github"
+            href="https://github.com/Deepaksingh2003"
             target="_blank"
             className="bg-black p-3 rounded-full shadow-md hover:bg-gray-900"
           >
