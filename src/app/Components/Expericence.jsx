@@ -2,9 +2,15 @@ const experiences = [
   {
     company: "Codeware IT",
     role: "Full Stack Developer (MERN Stack)",
-    duration: "Aug 2023 - Present",
+    duration: "Aug 2024 - Present",
     description:
       "At Codeware IT, I am responsible for developing and maintaining full-stack applications using the MERN stack (MongoDB, Express.js, React, and Node.js). My role includes designing RESTful APIs, implementing user authentication, optimizing database queries, and integrating third-party services. I work closely with frontend and backend teams to build scalable and efficient applications that meet business requirements.",
+  },
+  {
+    company: "Edusprouts Pvt Ltd",
+    role: "Full Stack Developer intern",
+    description:
+      "I worked as a Full Stack Intern at Edusprouts Pvt Ltd, where I handled both frontend and backend development. My work involved building responsive web applications, managing databases, and developing full-stack projects using technologies like HTML, CSS, JavaScript, React.js, Next.js, Node.js, Express.js, and MongoDB. I also utilized frameworks like Tailwind CSS and Bootstrap to enhance UI/UX design and ensure responsiveness.",
   },
   {
     company: "VerveGen Tech Pvt Ltd",
