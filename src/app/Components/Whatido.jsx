@@ -1,27 +1,32 @@
 import {
-  FaPython,
-  FaJs,
   FaReact,
-  FaAws,
-  FaDocker,
+  FaNodeJs,
   FaGithub,
+  FaAws,
+  FaHtml5,
+  FaCss3Alt,
+  FaJsSquare,
 } from "react-icons/fa";
-import { SiDjango, SiNextdotjs, SiHeroku } from "react-icons/si";
+import {
+  SiMongodb,
+  SiExpress,
+  SiTailwindcss,
+  SiBootstrap,
+} from "react-icons/si";
 
 const WhatIDo = () => {
   return (
     <section className="py-16 px-6 md:px-20 text-center" id="about">
       <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
-        What I do
+        What I Do
       </h2>
       <p className="text-gray-600 mt-2">
-        CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK
+        FULL STACK MERN DEVELOPER | EXPLORING MODERN TECHNOLOGIES
       </p>
 
       <div className="mt-10 flex flex-col md:flex-row items-center md:items-start">
         {/* Left Side - Illustration */}
         <div className="flex justify-center md:w-1/2">
-          {/* Replace with actual image */}
           <img src="/whatido.gif" alt="Developer" className="w-80 md:w-96" />
         </div>
 
@@ -33,24 +38,39 @@ const WhatIDo = () => {
 
           {/* Tech Stack Icons */}
           <div className="flex flex-wrap justify-center md:justify-start gap-6 mt-4">
-            {[
-              { icon: <FaPython />, name: "Python" },
-              { icon: <SiDjango />, name: "Django" },
-              { icon: <FaJs />, name: "JavaScript" },
-              { icon: <FaReact />, name: "React.js" },
-              { icon: <SiNextdotjs />, name: "Next.js" },
-              { icon: <FaAws />, name: "AWS" },
-              { icon: <SiHeroku />, name: "Heroku" },
-              { icon: <FaGithub />, name: "GitHub" },
-              { icon: <FaDocker />, name: "Docker" },
-            ].map((tech, index) => (
-              <div
-                key={index}
-                className="flex flex-col items-center bg-white shadow-md p-4 rounded-full"
-              >
-                <span className="text-3xl text-blue-600">{tech.icon}</span>
-              </div>
-            ))}
+            <div className="bg-white shadow-md p-4 rounded-full text-green-600 text-4xl">
+              <SiMongodb />
+            </div>
+            <div className="bg-white shadow-md p-4 rounded-full text-gray-800 text-4xl">
+              <SiExpress />
+            </div>
+            <div className="bg-white shadow-md p-4 rounded-full text-blue-600 text-4xl">
+              <FaReact />
+            </div>
+            <div className="bg-white shadow-md p-4 rounded-full text-green-700 text-4xl">
+              <FaNodeJs />
+            </div>
+            <div className="bg-white shadow-md p-4 rounded-full text-sky-500 text-4xl">
+              <SiTailwindcss />
+            </div>
+            <div className="bg-white shadow-md p-4 rounded-full text-purple-600 text-4xl">
+              <SiBootstrap />
+            </div>
+            <div className="bg-white shadow-md p-4 rounded-full text-black text-4xl">
+              <FaGithub />
+            </div>
+            <div className="bg-white shadow-md p-4 rounded-full text-yellow-500 text-4xl">
+              <FaAws />
+            </div>
+            <div className="bg-white shadow-md p-4 rounded-full text-orange-500 text-4xl">
+              <FaHtml5 />
+            </div>
+            <div className="bg-white shadow-md p-4 rounded-full text-blue-500 text-4xl">
+              <FaCss3Alt />
+            </div>
+            <div className="bg-white shadow-md p-4 rounded-full text-yellow-400 text-4xl">
+              <FaJsSquare />
+            </div>
           </div>
 
           {/* Description */}
@@ -59,7 +79,13 @@ const WhatIDo = () => {
               ⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js
             </p>
             <p className="flex items-center mt-2">
-              ⚡ Building responsive static websites using Next.js
+              ⚡ Developing RESTful APIs and backend with Node.js & Express.js
+            </p>
+            <p className="flex items-center mt-2">
+              ⚡ Styling with Tailwind CSS and Bootstrap
+            </p>
+            <p className="flex items-center mt-2">
+              ⚡ Hosting and deploying projects on AWS and GitHub
             </p>
           </div>
         </div>
