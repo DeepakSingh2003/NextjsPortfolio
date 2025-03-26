@@ -6,6 +6,7 @@ import Education from "./Components/Education";
 import Projects from "./Components/Projects";
 import Footer from "./Components/Footer";
 import Experience from "./Components/Expericence";
+import TawkToWidget from "./Components/TawkToWidget";
 
 function page() {
   return (
@@ -17,6 +18,7 @@ function page() {
       <Experience />
       <Projects />
       <Footer />
+      <TawkToWidget />
     </>
   );
 }

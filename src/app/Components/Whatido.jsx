@@ -12,6 +12,8 @@ import {
   SiExpress,
   SiTailwindcss,
   SiBootstrap,
+  SiAdobephotoshop,
+  SiCoreldraw,
 } from "react-icons/si";
 
 const WhatIDo = () => {
@@ -21,7 +23,8 @@ const WhatIDo = () => {
         What I Do
       </h2>
       <p className="text-gray-600 mt-2">
-        FULL STACK MERN DEVELOPER | EXPLORING MODERN TECHNOLOGIES
+        FULL STACK MERN DEVELOPER | EXPLORING MODERN TECHNOLOGIES | GRAPHIC
+        DESIGN ENTHUSIAST
       </p>
 
       <div className="mt-10 flex flex-col md:flex-row items-center md:items-start">
@@ -33,7 +36,7 @@ const WhatIDo = () => {
         {/* Right Side - Skills */}
         <div className="mt-8 md:mt-0 md:w-1/2">
           <h3 className="text-2xl font-semibold text-gray-900">
-            Full Stack Development
+            Full Stack Development & Graphic Design
           </h3>
 
           {/* Tech Stack Icons */}
@@ -71,6 +74,12 @@ const WhatIDo = () => {
             <div className="bg-white shadow-md p-4 rounded-full text-yellow-400 text-4xl">
               <FaJsSquare />
             </div>
+            <div className="bg-white shadow-md p-4 rounded-full text-blue-700 text-4xl">
+              <SiAdobephotoshop />
+            </div>
+            <div className="bg-white shadow-md p-4 rounded-full text-pink-600 text-4xl">
+              <SiCoreldraw />
+            </div>
           </div>
 
           {/* Description */}
@@ -86,6 +95,10 @@ const WhatIDo = () => {
             </p>
             <p className="flex items-center mt-2">
               ⚡ Hosting and deploying projects on AWS and GitHub
+            </p>
+            <p className="flex items-center mt-2">
+              ⚡ Designing graphics, logos, and banners using Photoshop and
+              CorelDRAW
             </p>
           </div>
         </div>
