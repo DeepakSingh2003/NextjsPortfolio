@@ -3,6 +3,8 @@ import { useEffect } from "react";
 
 const TawkToWidget = () => {
   useEffect(() => {
+    if (window.innerWidth < 768) return; // Prevent script loading on mobile screens
+
     const script = document.createElement("script");
     script.src = "https://embed.tawk.to/67e41fba0d126f190919544f/1in9hnt0p";
     script.async = true;
